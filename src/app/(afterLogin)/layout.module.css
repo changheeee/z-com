@@ -30,9 +30,11 @@
   /* inherit 부모 width 상속 */
   height: 100dvh;
 }
+
 .leftSection nav {
   flex: 1;
 }
+
 .logo {
   display: inline-block;
   height: 56px;
@@ -84,7 +86,7 @@
 }
 
 .rightSectionInner {
-  background-color: aqua;
+  /* background-color: aqua; */
   height: 100%;
   width: 990px;
   display: flex;
@@ -93,11 +95,11 @@
 
 .main {
   width: 600px;
-  background-color: azure;
+  /* background-color: azure; */
 }
 
 .rightSection {
-  background-color: blue;
+  /* background-color: blue; */
   width: 350px;
   height: 100%;
 }
@@ -122,4 +124,16 @@
 
 .search > input:focus {
   border: none;
+}
+
+.followRecommend {
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(247, 249, 249);
+  border-radius: 16px;
+  margin: 12px 0;
+  padding: 12px 16px;
+}
+.followRecommend h3 {
+  padding-bottom: 12px;
 }
