@@ -1,0 +1,80 @@
+.main {
+  width: 37.5rem;
+  min-height: 100vh;
+  border-color: rgb(239, 243, 244);
+  border-right-width: 0.0625rem;
+  border-left-width: 0.0625rem;
+  border-left-style: solid;
+  border-right-style: solid;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0 1rem;
+}
+
+.header {
+  height: 3.375rem;
+  display: flex;
+  align-items: center;
+}
+.header h2 {
+  margin-left: 2.5rem;
+  font-size: 1.25rem;
+}
+.userInfo {
+  padding: 1.25rem 1rem 3.75rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  border-color: rgb(239, 243, 244);
+  cursor: pointer;
+  border-bottom: 0.0625rem solid rgb(239, 243, 244);
+  margin-bottom: 1.25rem;
+}
+.userInfo:hover {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+.userInfo img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.message {
+  padding-bottom: 1.5rem;
+}
+.content {
+  line-height: 1.25rem;
+  padding: 0.75rem 1rem;
+  font-size: 0.9375rem;
+}
+.myMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.myMessage .content {
+  background-color: #0083eb;
+  border-top-left-radius: 1.375rem;
+  border-top-right-radius: 1.375rem;
+  border-bottom-left-radius: 1.375rem;
+  color: white;
+}
+.yourMessage {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.yourMessage .content {
+  background-color: #eff3f4;
+  border-top-left-radius: 1.375rem;
+  border-top-right-radius: 1.375rem;
+  border-bottom-right-radius: 1.375rem;
+  color: black;
+}
+.date {
+  margin-top: 0.5rem;
+  color: #536471;
+  font-size: 0.8125rem;
+}

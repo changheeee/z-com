@@ -8,10 +8,12 @@ export default function CommentForm() {
   const imageRef = useRef<HTMLInputElement>(null);
   const onClickButton = () => { }
   const onSubmit = () => { }
-  const onChange = () => { }
+  const onChange = (e: any) => {
+    setContent(e.target.value)
+  }
   const me = {
-    id: 'zerohch0',
-    image: '/5Udwvqim.jpg'
+    id: 'changheee',
+    image: '/duck.jpeg'
   };
 
   return (
