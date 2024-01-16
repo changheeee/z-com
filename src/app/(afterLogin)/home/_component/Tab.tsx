@@ -28,9 +28,6 @@ export default function Tab() {
                     <div className={style.tabIndicator} hidden={tab === 'rec'}></div>
                 </div>
             </div>
-
-
-
         </div>
     )
 }
