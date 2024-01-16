@@ -116,6 +116,7 @@
   display: flex;
   justify-content: space-between;
 }
+
 @media all and (min-width: 1024px) {
   .rightSection {
     display: inline-block;
